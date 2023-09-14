@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8" />
+        <title>TermProject</title>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <script >
+        
+            function changePage(id)
+            {
+                document.getElementById('title').innerHTML = id;
+                document.getElementById('Body').innerHTML = document.getElementById(id).innerHTML;   
+
+            }
+        
+        </script>
+    </head>
+    <body>
+        
+        <div id="Header"></div>
+        <nav style="background-color: #282c34;" class="navbar navbar-inverse">
+        <div class="fluid-container">
+            <ul class="nav navbar-nav">
+                <li><button class="App-btn" onclick="changePage('Introduction')"> Introduction</button></li>
+                <li><button class="App-btn" onclick="changePage('Installation')"> Installation</button></li>
+                <li><button class="App-btn" onclick="changePage('Demo')"> Demo</button></li>
+                <li><button class="App-btn" onclick="changePage('Tutorial')"> Tutorial</button></li>
+                <li><button class="App-btn" onclick="changePage('Conclusion')"> Conclusion</button></li>
+                <li><button class="App-btn" onclick="changePage('Credits')"> Credits</button></li>
+            </ul>
+        </div>
+        </nav>
+
+       
+
+        <div id="Body">
+            <div class="container">
+                <div class="App-stdDiv">
+                    <h1>Welcome to React</h1>
+                        <div class="pokemonDiv">
+                            This website is a simple demostartion<br/>
+                            of the frontend framework React. Use the navigation<br/>
+                            bar above for more information, otherwise, click the<br/>
+                            respective buttons to see a Demo and Tutorial of React.
+                        </div>
+                        <br/><button class="App-btn" onclick="changePage('Demo')"> Demo</button><br/>
+                        <button class="App-btn" onclick="changePage('Tutorial')"> Tutorial</button>
+                </div>
+            </div>
+        </div>
+        
+
+        <div id="Footer" class="fluid-container"></div>
+        
+        
+        <div id="Page1" hidden></div>
+        <div id="Page2" hidden></div>
+        <div id="Page3" hidden></div>
+        <div id="Page4" hidden></div>
+        <div id="Page5" hidden></div>
+        <div id="Page6" hidden></div>
+      
+
+
+        <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+ 
+
+        <script src="./components/Footer.js" type="text/babel"></script>
+        <script src="./components/MainHeader.js" type="text/babel"></script>
+
+        
+        <script src="./Pages/Introduction.js" type="text/babel"></script>
+        <script src="./Pages/Tutorial.js" type="text/babel"></script>
+        <script src="./Pages/Installation.js" type="text/babel"></script>
+        <script src="./Pages/Conclusion.js" type="text/babel"></script>
+        <script src="./Pages/Credits.js" type="text/babel"></script>
+        <script src="./Pages/Demo.js" type="text/javascript"></script>
+        
+        
+
+    
+    </body>
+</html>

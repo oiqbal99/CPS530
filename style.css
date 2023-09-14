@@ -1,0 +1,109 @@
+.App-header {
+    background-color: #282c34;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    margin-bottom: 2px ;
+    color: white;
+
+}
+.App-footer {
+    background-color: #282c34;
+    padding: 25px;
+    margin-top: 16px;
+    text-align: center;
+    width: 100%;
+    bottom: 10px;
+}
+
+.margin{
+    margin:0;
+}
+.App-btn{
+    border-width:4px;
+    border-color: #09d3ac;
+    color:white;
+    width: 33vw;
+    padding: 10px 25px;
+    font-size: 14px;
+    background-color: #282c34;
+
+}
+
+.App-subheader {
+    background-color: #282c34;
+    border-radius: 10px;
+    font-size: 22px;
+    border: 2px solid #09d3ac;
+    color: white;
+}
+
+.App-stdDiv{
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 16px;
+    margin: 2px;
+    height: fit-content;
+    padding: 25px;
+    justify-content: center;
+}
+
+
+
+input{
+    margin: 5px;
+    width: 50%;
+    background-color: #282c34;
+    border-color: #09d3ac;
+    border-radius: 5000px;
+}
+
+.p{font-size: 16pt;}
+
+.margin{margin-bottom: 2px;}
+
+.pokemonDiv{
+        background-color: #282c34;
+        color: #09d3ac;
+        border-radius: 10px;
+        border: 2px solid #09d3ac;
+        font-size: 16px;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 5px;
+        height: fit-content;
+        padding: 25px;
+        display: inline-block;
+}
+
+
+.img{
+ 
+    height: 220px;
+    width: 220px;
+    border: 2px solid #09d3ac;
+    background-color: #282c34;
+    border-radius: 5000px;
+}
+
+.imgLogo{
+    height: 100px;
+    width: 100px;
+    background-color: #282c34;
+}
+
+
+
+span{ background-color: burlywood;
+    opacity: 100%}
+
+body {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+
